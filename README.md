@@ -66,6 +66,7 @@ where <ELB ID> will be replaced with the elb id obtained in the previous step.
 1.	Log into the FMC UI and select the evaluation period license
 
 2.	While in the Resources folder terminal run the following commands
+
 `Terraform init`
 
 `Terraform plan –out fmc`
@@ -85,7 +86,7 @@ where <ELB ID> will be replaced with the elb id obtained in the previous step.
 
 5.	Click on Deploy and select both the FTD devices and deploy the changes
 
-## Task 6: Tearing Down
+## Task 5: Tearing Down
 To destroy all the resources that you created, Follow below steps. 
 1.	Navigate to Development folder on terminal and run the following command
 `Terraform destroy`
