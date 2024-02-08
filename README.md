@@ -65,12 +65,12 @@ where <ELB ID> will be replaced with the elb id obtained in the previous step.
 
 ### Note: Wait until the FMC is up and running before starting these steps
 1.	Log into the FMC UI and select the evaluation period license
-      
-Figure 9: FMC Evaluation License
+
 2.	While in the Resources folder terminal run the following commands
-Terraform init
-Terraform plan –out fmc
-Terraform apply fmc
+`Terraform init`
+`Terraform plan –out fmc`
+`Terraform apply fmc`
+
 3.	Log into the FMC UI and verify that all the configuration is present as expected
 4.	While in FMC UI, navigate to the Devices > platform settings and add a new threat defence policy
 4.1.	Provide a name to the policy and add both FTD devices to the policy
