@@ -50,3 +50,15 @@ variable "outside_subnet_id" {
 variable "inside_subnet_id" {
   default = []
 }
+
+variable "elb_name" {
+  type = string
+}
+
+variable "ilb_name" {
+  type = string
+}
+
+variable "pod_no" {
+  type = string
+}
