@@ -32,11 +32,10 @@ To clone the code to your local machine move into your working directory and run
 
 1.	Navigate to the AWS_Workshop_Code folder and move to the Development folder
 2.	Most of the values in the terraform.tf file are added already and need no change
-3.	Run command terraform init
-4.	Run command terraform plan –out awslab
-5.	Run command terraform apply awslab
+3.	Run command `terraform init`
+4.	Run command `terraform plan –out awslab`
+5.	Run command `terraform apply awslab`
 6.	Verify the resources are created by the script as expected on the terminal.
-On AWS console it will look like this.
 
 ## Task 3: Deploy the Application
 
@@ -68,7 +67,9 @@ where <ELB ID> will be replaced with the elb id obtained in the previous step.
 
 2.	While in the Resources folder terminal run the following commands
 `Terraform init`
+
 `Terraform plan –out fmc`
+
 `Terraform apply fmc`
 
 3.	Log into the FMC UI and verify that all the configuration is present as expected
