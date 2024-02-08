@@ -21,6 +21,15 @@ In this lab, users will programmatically deploy Cisco Secure Firewall Threat Def
 4.	Install VSCODE
 5.	Install GIT
 
+To install AWS CLI:
+`curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"`
+`unzip awscliv2.zip`
+`sudo ./aws/install`
+
+To install GIT:
+`sudo apt-get update`
+`sudo apt-get install git`
+
 ## Task 1: Clone the git code 
 
 To clone the code to your local machine move into your working directory and run the following command
