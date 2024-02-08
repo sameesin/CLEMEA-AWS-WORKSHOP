@@ -27,3 +27,19 @@ module "network" {
   fmc_mgmt_interface_sg   = var.fmc_mgmt_interface_sg
   create_fmc              = true
 }
+
+resource "tls_private_key" "key_pair" {
+algorithm = "RSA"
+rsa_bits  = 4096
+}
+
+resource "local_file" "private_key" {
+content       = tls_private_key.key_pair.private_key_openssh
+filename      = var.keyname
+file_permission = 0700
+}
+
+resource "aws_key_pair" "deployer" {
+  key_name   = var.keyname
+  public_key = tls_private_key.key_pair.public_key_openssh
+}
