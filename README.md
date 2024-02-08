@@ -81,6 +81,7 @@ To clone the code to your local machine move into your working directory and run
 1.	Move the following files from the resources folder to the Development folder
 
 Apache_install.tpl
+
 Apps.tf
 
 2.	Run the commands terraform plan –out awslab
