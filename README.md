@@ -49,6 +49,10 @@ sudo apt update
 
 sudo apt-get install terraform
 
+## Authenticate
+
+On the terminal run the command aws configure and paste your access and secret keys along with location as us-east-1 (the location may vary based on your pod number)
+
 
 ## Task 1: Clone the git code 
 
