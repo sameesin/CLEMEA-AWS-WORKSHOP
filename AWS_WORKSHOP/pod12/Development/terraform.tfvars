@@ -12,7 +12,7 @@ region = "us-east-1"
 #Define New VPC in a specific Region and Avilability Zone 
 #############################################################
 vpc_name = "pod-12"
-vpc_cidr = "10.120.0/16"
+vpc_cidr = "10.12.0.0/16"
 create_igw = true
 # Generate the key if you want to login thru the  key
 keyname = "ln-12"
@@ -30,17 +30,17 @@ diag_subnet_cidr = ["10.12.4.0/24","10.12.40.0/24"]
 app_subnet_cidr = ["10.12.5.0/24","10.12.50.0/24"]
 bastion_subnet_cidr = "10.12.6.0/24"
 
-ftd_mgmt_ip = ["10.12.1.10","10.x.10.10"]
-ftd_outside_ip = ["10.12.2.10","10.x.20.10"]
-ftd_inside_ip = ["10.12.3.10","10.x.30.10"]
-ftd_diag_ip = ["10.12.4.10","10.x.40.10"]
-ftd_app_ip = ["10.12.5.10","10.x.50.10"]
+ftd_mgmt_ip = ["10.12.1.10","10.12.10.10"]
+ftd_outside_ip = ["10.12.2.10","10.12.20.10"]
+ftd_inside_ip = ["10.12.3.10","10.12.30.10"]
+ftd_diag_ip = ["10.12.4.10","10.12.40.10"]
+ftd_app_ip = ["10.12.5.10","10.12.50.10"]
 bastion_ip = "10.12.6.10"
 fmc_ip = "10.12.1.57"
 
 inside_subnet_name = ["inside112","inside212"]
 outside_subnet_name = ["outside112","outside212"]
-mgmt_subnet_name = ["mgmt1x","mgmt2x"]
+mgmt_subnet_name = ["mgmt112","mgmt212"]
 diag_subnet_name = ["diag112","diag212"]
 app_subnet_name = ["app112","app212"]
 bastion_subnet_name = "bastion12"

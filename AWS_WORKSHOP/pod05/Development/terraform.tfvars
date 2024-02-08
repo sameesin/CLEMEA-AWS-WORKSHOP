@@ -31,16 +31,16 @@ app_subnet_cidr = ["10.5.5.0/24","10.5.50.0/24"]
 bastion_subnet_cidr = "10.5.6.0/24"
 
 ftd_mgmt_ip = ["10.5.1.10","10.x.10.10"]
-ftd_outside_ip = ["10.5.2.10","10.x.20.10"]
-ftd_inside_ip = ["10.5.3.10","10.x.30.10"]
-ftd_diag_ip = ["10.5.4.10","10.x.40.10"]
-ftd_app_ip = ["10.5.5.10","10.x.50.10"]
+ftd_outside_ip = ["10.5.2.10","10.5.20.10"]
+ftd_inside_ip = ["10.5.3.10","10.5.30.10"]
+ftd_diag_ip = ["10.5.4.10","10.5.40.10"]
+ftd_app_ip = ["10.5.5.10","10.5.50.10"]
 bastion_ip = "10.5.6.10"
 fmc_ip = "10.5.1.57"
 
 inside_subnet_name = ["inside15","inside25"]
 outside_subnet_name = ["outside15","outside25"]
-mgmt_subnet_name = ["mgmt1x","mgmt2x"]
+mgmt_subnet_name = ["mgmt15","mgmt25"]
 diag_subnet_name = ["diag15","diag25"]
 app_subnet_name = ["app15","app25"]
 bastion_subnet_name = "bastion5"
